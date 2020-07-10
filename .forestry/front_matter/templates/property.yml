@@ -51,6 +51,34 @@ fields:
     max: 
     step: 
     required: true
+- name: property_type
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - Acreage/Land
+    - Commercial
+    - Condo
+    - Townhome
+    - Co-op
+    - Duplex
+    - Farmland
+    - Farmranch
+    - Cabin
+    - Mobile Home
+    - Multi-family
+    - New Construction
+    - Rental
+    - Single Family
+    - Time Share
+    - Vacation Home
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Property Type
 - name: address
   type: field_group
   config: {}
@@ -163,34 +191,6 @@ fields:
   type: field_group
   config: {}
   fields:
-  - name: property_type
-    type: select
-    default: Single Family
-    config:
-      required: true
-      options:
-      - Acreage/Land
-      - Commercial
-      - Condo
-      - Townhome
-      - Co-op
-      - Duplex
-      - Farmland
-      - Farmranch
-      - Cabin
-      - Mobile Home
-      - Multi-family
-      - New Construction
-      - Rental
-      - Single Family
-      - Time Share
-      - Vacation Home
-      source:
-        type: simple
-        section: 
-        file: 
-        path: 
-    label: Property Type
   - name: mls_number
     type: text
     config:
@@ -552,8 +552,3 @@ fields:
   config: {}
   template: url
   label: URL
-pages:
-- content/listings/110-york-drive.md
-- content/listings/3385-pan-american-dr.md
-- content/listings/54-vicente-rd-berkeley.md
-- content/listings/636-wildcat-canyon-rd.md

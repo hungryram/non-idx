@@ -58,5 +58,6 @@ fields:
   template: url
   label: URL
 pages:
-- content/blog/what-is-lorem-ipsum.md
-- content/blog/where-can-i-get-some.md
+- content/blog/hidden-fees-to-be-aware-of-when-purchasing-a-home.md
+- content/blog/what-to-repair-before-you-list.md
+- content/blog/your-guide-to-home-appraisal.md
