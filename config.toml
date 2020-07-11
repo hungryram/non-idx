@@ -52,3 +52,5 @@ weight = 4
 [taxonomies]
 category = "categories"
 tag = "tags"
+status = "status"
+type = "types"
