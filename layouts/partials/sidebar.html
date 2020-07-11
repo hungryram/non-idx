@@ -1,5 +1,14 @@
 <div class="column">
 
+  <div class="box">
+    <h2 class="subtitle is-6">States</h2>
+    <ul>
+      {{ range .Site.Taxonomies.states }}
+        <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+      {{ end }}
+    </ul>
+  </div>
+
     <div class="box">
       <h2 class="subtitle is-6">Blog Categories</h2>
         <ul>
