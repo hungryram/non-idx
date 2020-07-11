@@ -55,12 +55,6 @@ home_sections:
   blog_subtitle: View our latest posts for useful information
   blog_background: "#FFFFFF"
   blog_enable_white_text_color: false
-- template: featured-listings
-  active_align_title_text: []
-  active_listing_title: ''
-  listing_subtitle: ''
-  active_background_color: ''
-  active_enable_white_text_color: false
 sub_pages:
   sub_page_image: "/uploads/main.jpg"
 footer:
