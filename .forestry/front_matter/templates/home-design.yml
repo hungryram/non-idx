@@ -68,8 +68,12 @@ fields:
   - name: slideshow_home
     type: image_gallery
     config: {}
+<<<<<<< HEAD
     label: Add Slide Shows
     description: We recommend using less than 5 images to optimize page speed.
+=======
+    label: Slideshow Home
+>>>>>>> 6c4afc5e336332a150e18630a7b7cfa4a99985bd
   label: Slideshow
 - name: main_image
   type: field_group
