@@ -12,14 +12,14 @@ city = "CORONA"
 state = "Arizona"
 zip_code = 92882
 [details]
-bathrooms = nil
-bedrooms = nil
-garage = nil
-hoa = nil
-lot_size = nil
+bathrooms = 0
+bedrooms = 0
+garage = 0
+hoa = 0
+lot_size = 0
 mls_number = "234324354"
-square_footage = nil
-year_built = nil
+square_footage = 0
+year_built = 0
 [listing_agent]
 listing_agent = []
 [photos]

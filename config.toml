@@ -2,27 +2,9 @@ baseURL = "https://simplere.netlify.app"
 languageCode = "en-us"
 summarylength = 20
 [[menu.main]]
-name = "Login"
-url = "https://simple.idxhome.com/organizer/login/133407"
-weight = 5
-[[menu.main]]
-name = "Mortgage Calculator"
-parent = "Resources"
-url = "https://simple.idxhome.com/mortcalc/133407"
-weight = "4"
-[[menu.main]]
-name = "Featured Properties"
-parent = "Buying"
-url = "https://simple.idxhome.com/featured/133407"
-weight = 2
-[[menu.main]]
-name = "Search Homes"
-parent = "Buying"
-url = "https://simple.idxhome.com/homesearch/133407"
-weight = 1
-[[menu.main]]
-name = "Buying"
-weight = 2
+name = "Blog"
+url = "/blog"
+weight = 4
 [[menu.main]]
 name = "Testimonials"
 parent = "Resources"
@@ -39,16 +21,16 @@ parent = "Resources"
 url = "/partners"
 weight = 1
 [[menu.main]]
-name = "Home"
-url = "/"
-weight = 1
-[[menu.main]]
 name = "Resources"
 weight = 3
 [[menu.main]]
-name = "Blog"
-url = "/blog"
-weight = 4
+name = "Listings"
+url = "/listings"
+weight = 2
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
 [taxonomies]
 category = "categories"
 tag = "tags"

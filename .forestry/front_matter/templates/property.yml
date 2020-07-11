@@ -137,79 +137,61 @@ fields:
       min: 0
     label: MLS Number
   - name: square_footage
-    type: number
+    type: text
     description: ''
     default: 0
-    required: true
     config:
       min: 0
       max: 
       step: 
     label: Square Footage
   - name: lot_size
-    type: number
+    type: text
     label: Lot Size
     description: ''
     default: 0
-    required: true
     config:
       min: 0
       max: 
       step: 
   - name: year_built
-    type: number
+    type: text
     label: Year Built
     description: ''
     default: 0
-    required: true
     config:
       min: 0
       max: 
       step: 
   - name: bedrooms
-    type: number
+    type: text
     label: Bedrooms
     description: ''
     default: 0
-    required: true
     config:
       min: 0
       max: 
       step: 
-      required: false
   - name: bathrooms
-    type: number
+    type: text
     label: Bathrooms
     description: ''
     default: 0
-    required: true
     config:
       min: 0
       max: 
       step: 
       required: false
   - name: hoa
-    type: number
+    type: text
     label: HOA
     description: Enter 0 if none.
     default: 0
-    required: true
-    config:
-      min: 0
-      max: 
-      step: 
-      required: false
   - name: garage
-    type: number
+    type: text
     label: Garage
     description: Enter 0 if none
     default: 0
-    required: true
-    config:
-      min: 0
-      max: 
-      step: 
-      required: false
   label: Details
 - name: utilities_and_features
   type: field_group
