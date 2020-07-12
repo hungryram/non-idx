@@ -4,10 +4,11 @@ featured_listing = false
 property_type = "Commercial"
 short_description = "Luxury Listing"
 state = "California"
+states = "California"
 status = "Sold"
 title = "636 WILDCAT CANYON RD"
 url = ""
-weight = 0
+weight = 54512121
 zip_code = 92882
 [details]
 bathrooms = ""
