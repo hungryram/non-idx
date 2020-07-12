@@ -4,6 +4,7 @@ featured_listing = false
 property_type = "Condo"
 short_description = "Luxury Listing"
 state = "Alaska"
+states = "California"
 status = "Active"
 title = "4321 Testing Rd"
 url = ""
