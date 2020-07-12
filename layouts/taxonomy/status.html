@@ -11,8 +11,8 @@
             <div class="column is-8 ascend">
               <div class="tabs is-centered">
                 <ul>
-                  <li><a href="/featured">Featured</a></li>
                   <li><a href="/listings">All Listings({{ len ( where $.Site.RegularPages "Type" "listings") }})</a></li>
+                    <li><a href="/featured">Featured</a></li>
                     {{ range $name, $taxonomy := .Site.Taxonomies.status }}
                   <li>
                     <a href="/status/{{ $name | urlize }}">{{ $name | humanize }} ({{ $taxonomy.Count }})</a>
@@ -22,6 +22,25 @@
                   <li>
                 </ul>
               </div>
+              
+<section>
+  <ul>
+    {{ range $taxonomyname, $taxonomy := .Site.Taxonomies }}
+      <li><a href="{{ "/" | relLangURL}}{{ $taxonomyname | urlize }}">{{ $taxonomyname }}</a>
+        <ul>
+          {{ range $key, $value := $taxonomy }}
+          <li> {{ $key }} </li>
+                <ul>
+                {{ range $value.Pages }}
+                    <li><a href="{{ .Permalink}}"> {{ .LinkTitle }} </a> </li>
+                {{ end }}
+                </ul>
+          {{ end }}
+        </ul>
+      </li>
+    {{ end }}
+  </ul>
+</section>
 
                 <div class="columns is-multiline">
                 {{ $paginator := .Paginate (where .Pages "Type" "listings") 6 }}
@@ -39,5 +58,3 @@
 </div>
 
 {{ end }}
-
-

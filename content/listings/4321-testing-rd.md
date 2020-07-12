@@ -9,11 +9,6 @@ title = "4321 Testing Rd"
 url = ""
 weight = 35122552
 zip_code = 92882
-[address]
-address = "4321 Testing Rd"
-city = "CORONA"
-state = "Arizona"
-zip_code = 92882
 [details]
 bathrooms = ""
 bedrooms = ""
