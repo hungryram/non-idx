@@ -1,25 +1,28 @@
 +++
+city = "CORONA"
 featured_listing = false
 property_type = "Condo"
 short_description = "Luxury Listing"
+state = "Alaska"
 status = "Active"
 title = "4321 Testing Rd"
 url = ""
 weight = 35122552
+zip_code = 92882
 [address]
 address = "4321 Testing Rd"
 city = "CORONA"
 state = "Arizona"
 zip_code = 92882
 [details]
-bathrooms = 0
-bedrooms = 0
-garage = 0
-hoa = 0
-lot_size = 0
+bathrooms = ""
+bedrooms = ""
+garage = ""
+hoa = ""
+lot_size = ""
 mls_number = "234324354"
-square_footage = 0
-year_built = 0
+square_footage = ""
+year_built = ""
 [listing_agent]
 listing_agent = []
 [photos]
