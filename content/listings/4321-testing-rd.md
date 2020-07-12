@@ -1,5 +1,5 @@
 +++
-city = "CORONA"
+city = "Corona"
 featured_listing = false
 property_type = "Condo"
 short_description = "Luxury Listing"
@@ -7,8 +7,18 @@ state = "Alaska"
 states = "Alaska"
 status = "Active"
 title = "4321 Testing Rd"
+type = "Co-op"
 url = ""
 weight = 35122552
+<<<<<<< HEAD
+=======
+zip = 92886
+zip_code = "92882"
+[address]
+address = "4321 Testing Rd"
+city = "CORONA"
+state = "Arizona"
+>>>>>>> 833b088d04a6ff4446a869db2abfd476fb2cb5e4
 zip_code = 92882
 [details]
 bathrooms = ""

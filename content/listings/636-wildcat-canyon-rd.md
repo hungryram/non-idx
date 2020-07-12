@@ -7,8 +7,10 @@ state = "California"
 states = "California"
 status = "Sold"
 title = "636 WILDCAT CANYON RD"
+type = "Commercial"
 url = ""
 weight = 54512121
+zip = 92882
 zip_code = 92882
 [details]
 bathrooms = ""

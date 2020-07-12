@@ -75,7 +75,7 @@ fields:
       file: 
       path: 
   label: State
-- name: zip_code
+- name: zip
   type: number
   label: Zip Code
   description: ''
@@ -128,7 +128,7 @@ fields:
     max: 
     step: 
     required: true
-- name: property_type
+- name: type
   type: select
   default: []
   config:
