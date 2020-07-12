@@ -8,7 +8,10 @@
             </div>
           </div>
         <div class="columns">
+          {{ partial "search.html" . }}
+
             <div class="column is-8 ascend">
+              
               <div class="tabs is-centered">
                 <ul>
                   <li><a href="/listings">All Listings({{ len ( where $.Site.RegularPages "Type" "listings") }})</a></li>
@@ -32,7 +35,6 @@
                 </div>
                 {{ partial "pagination" . }}
             </div>
-            {{ partial "sidebar.html" . }}
         </div>
     </div>
 </div>
