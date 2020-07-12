@@ -10,14 +10,14 @@ url = ""
 weight = 0
 zip = 92882
 [details]
-bathrooms = ""
-bedrooms = ""
+bathrooms = "4"
+bedrooms = "4"
 garage = ""
 hoa = ""
-lot_size = ""
-mls_number = ""
-square_footage = ""
-year_built = ""
+lot_size = "41"
+mls_number = "234343"
+square_footage = "0"
+year_built = "545"
 [listing_agent]
 listing_agent = []
 [photos]
