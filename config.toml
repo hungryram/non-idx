@@ -37,5 +37,10 @@ tag = "tags"
 status = "status"
 type = "type"
 state = "states"
+<<<<<<< HEAD
+city = "cities"
+zip-code = "zip-code"
+=======
 city = "city"
 zip = "zip"
+>>>>>>> ee7d7ed6ed41eb35f61bbe9e416f64d01f0efff8

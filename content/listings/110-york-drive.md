@@ -1,14 +1,26 @@
 +++
 city = "Yorba Linda"
 featured_listing = false
+<<<<<<< HEAD:content/listings/4321-testing-rd.md
+property_type = "Condo"
+short_description = "Luxury Listing"
+state = "Alaska"
+states = "California"
+=======
 short_description = "Guaranteed Modern"
 states = "Arizona"
+>>>>>>> ee7d7ed6ed41eb35f61bbe9e416f64d01f0efff8:content/listings/110-york-drive.md
 status = "Active"
 title = "110 YORK DRIVE"
 type = "Commercial"
 url = ""
+<<<<<<< HEAD:content/listings/4321-testing-rd.md
+weight = 35122552
+zip_code = 92882
+=======
 weight = 1234321
 zip = 92886
+>>>>>>> ee7d7ed6ed41eb35f61bbe9e416f64d01f0efff8:content/listings/110-york-drive.md
 [details]
 bathrooms = ""
 bedrooms = ""

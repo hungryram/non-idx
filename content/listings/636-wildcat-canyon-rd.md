@@ -1,14 +1,26 @@
 +++
 city = "CORONA"
 featured_listing = false
+<<<<<<< HEAD
+property_type = "Commercial"
+short_description = "Luxury Listing"
+state = "California"
+states = "California"
+=======
 short_description = "Great Listing"
 states = "Arkansas"
+>>>>>>> ee7d7ed6ed41eb35f61bbe9e416f64d01f0efff8
 status = "Sold"
 title = "636 WILDCAT CANYON RD"
 type = "Condo"
 url = ""
+<<<<<<< HEAD
+weight = 54512121
+zip_code = 92882
+=======
 weight = 32443532
 zip = 92882
+>>>>>>> ee7d7ed6ed41eb35f61bbe9e416f64d01f0efff8
 [details]
 bathrooms = ""
 bedrooms = ""

@@ -8,7 +8,10 @@
             </div>
           </div>
         <div class="columns">
+          {{ partial "search.html" . }}
+
             <div class="column is-8 ascend">
+              
               <div class="tabs is-centered">
                 <ul>
                   <li><a href="/listings">All Listings({{ len ( where $.Site.RegularPages "Type" "listings") }})</a></li>
@@ -22,6 +25,29 @@
                   <li>
                 </ul>
               </div>
+<<<<<<< HEAD:layouts/taxonomy/status.html
+              
+<section>
+  <ul>
+    {{ range $taxonomyname, $taxonomy := .Site.Taxonomies }}
+      <li><a href="{{ "/" | relLangURL}}{{ $taxonomyname | urlize }}">{{ $taxonomyname }}</a>
+        <ul>
+          {{ range $key, $value := $taxonomy }}
+          <li> {{ $key }} </li>
+                <ul>
+                {{ range $value.Pages }}
+                    <li><a href="{{ .Permalink}}"> {{ .LinkTitle }} </a> </li>
+                {{ end }}
+                </ul>
+          {{ end }}
+        </ul>
+      </li>
+    {{ end }}
+  </ul>
+</section>
+
+=======
+>>>>>>> ee7d7ed6ed41eb35f61bbe9e416f64d01f0efff8:layouts/status/status.html
                 <div class="columns is-multiline">
                 {{ $paginator := .Paginate (where .Pages "Type" "listings") 6 }}
                 {{ range $paginator.Pages.ByWeight }}
@@ -32,7 +58,6 @@
                 </div>
                 {{ partial "pagination" . }}
             </div>
-            {{ partial "sidebar.html" . }}
         </div>
     </div>
 </div>
