@@ -7,7 +7,7 @@ status = "Active"
 title = "54 VICENTE RD BERKELEY"
 type = "Commercial"
 url = ""
-weight = 0
+weight = 54521
 zip = 92882
 [details]
 bathrooms = "4"
